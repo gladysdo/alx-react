@@ -27,12 +27,15 @@
 .App-link {
   color: #61dafb;
 }
+<<<<<<< HEAD
 .horizontal-line {
   border: none;
   height: 1px;
   background-color: red; 
   margin: 20px 0;
 }
+=======
+>>>>>>> 2d95adf54d5195c5f648ee00c47c34e03155311a
 
 @keyframes App-logo-spin {
   from {
@@ -42,6 +45,9 @@
     transform: rotate(360deg);
   }
 }
+<<<<<<< HEAD
 .App-footer{
   text-align: center;
 }
+=======
+>>>>>>> 2d95adf54d5195c5f648ee00c47c34e03155311a
