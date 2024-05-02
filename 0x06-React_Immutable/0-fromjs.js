@@ -1,12 +1,6 @@
-// Import Immutable.js library
-const { fromJS } = require('immutable');
+// import { fromJS } from 'immutable';
+import { fromJS } from './node_modules/immutable/dist/immutable';
 
-// Define the getImmutableObject function
-function getImmutableObject(object) {
-    // Convert the object into an immutable Map
-    const immutableMap = fromJS(object);
-    return immutableMap;
-}
+const getImmutableObject = (object) => fromJS(object);
 
-// Export the getImmutableObject function
-module.exports = getImmutableObject;
+export default getImmutableObject;
